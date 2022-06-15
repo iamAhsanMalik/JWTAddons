@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Ahsan Joiya</Authors>
+    <Description>A small package that allows developers to verify mobile
+apps social login JWT access tokens for Google,
+Facebook and Apple.</Description>
+    <Copyright>Copyright @ 2022 by Ahsan Joiya</Copyright>
+    <PackageProjectUrl>https://github.com/iamAhsanJoiya/JWTAddons</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/iamAhsanJoiya/JWTAddons</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>JWT Addons, JWT Access Tokens</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>0.0.1</Version>
+    <PackageReleaseNotes>Google, Apple, Facebook validators added</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.19.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.19.0" />
+  </ItemGroup>
+
+</Project>
